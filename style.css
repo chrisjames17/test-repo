@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.outer-class {
+    width: 100%;
+    float: left;
+    background: url("bg_image.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    width: 50%;
+    float: left;
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+    background-image: url("logo.png") no-repeat;
+    margin-top: auto;
+}
+
+.contactus {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.middle-div {
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #012506, #66b36a);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: auto;
+    min-height: 580px;
+}
+
+.middle-div:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1px;
+}
+
+.form-container {
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 5px auto 20px;
+}
+
+select:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover {
+    transform: scale(1.05);
+}
+
+button[type="submit"] {
+    width: 50%;
+    background-color: rgb(6, 117, 208);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+button[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-content li {
+    margin: 0 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-content li:first-child {
+    margin-left: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-content li:last-child {
+    margin-right: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-content li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content li a:hover {
+    text-decoration: underline;
+}
+
+.input-margin {
+    margin-top: 5px;
+}

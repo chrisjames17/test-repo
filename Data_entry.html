@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Product Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer-class">
+        <div class="menu">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+
+        </div>
+
+        <div class="contactus">
+            <div class="middle-div">
+                <h2> Product Feedback</h2>
+
+                <div class="form-container">
+                    <form action="/submit-form" method="post" class="form" id="feedbackForm" onsubmit="return validateForm()">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                        </div>
+                        <label for="Product">Product</label>
+                        <select id="Product" name="Product" required>
+                                        <option value="">Select a Product</option>
+                                        <option value="Avacado Ranch">Avacado Ranch</option>
+                                        <option value="Baby Butter">Baby Butter</option>
+                                        <option value="Baby Kale">Baby Kale</option>
+                                        <option value="Baby Romaine">Baby Romaine</option>
+                                        <option value="Balsamic">Balsamic</option>
+                                        <option value="Basil">Basil</option>
+                                        <option value="Berries">Berries</option>
+                                        <option value="Bok Choy">Bok Choy</option>
+                                        <option value="Cilantro">Cilantro</option>
+                                        <option value="Crispy Leaf">Crispy Leaf</option>
+                                        <option value="Mixed Greens">Mixed Greens</option>
+                                        <option value="Mustard Frills">Mustard Frills</option>
+                                        <option value="Parsley">Parsley</option>
+                                        <option value="Spinach">Spinach</option>
+                                        <option value="Spring Mix">Spring Mix</option>
+                                        <option value="Zesty Ceasar">Zesty Ceasar</option>
+                                    </select>
+
+                        <label for="rating">Rating</label>
+                        <select id="rating" name="rating" required>
+                                                    <option value="">Mark your Rating</option>
+                                                    <option value="1 star">⭐</option>
+                                                    <option value="2 star">⭐⭐</option>
+                                                    <option value="3 star">⭐⭐⭐</option>
+                                                    <option value="4 star">⭐⭐⭐⭐</option>
+                                                    <option value="5 star">⭐⭐⭐⭐⭐</option>
+                                                </select>
+
+                        <div class="form-group">
+                            <label for="Feedback">Feedback</label>
+                            <input type="text" id="Feedback" name="Feedback" placeholder="Enter your Feedback" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                            <footer>
+                                <div class="footer-content">
+                                    <ul class="horizontal-list">
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms of Service</a></li>
+                                    </ul>
+                                </div>
+                            </footer>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
